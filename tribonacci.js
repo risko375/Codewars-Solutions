@@ -2,7 +2,7 @@ function tribonacci(signature,n){
 
   if(n === 0){ return [] }
   if(n === 1){ return  signature[0]}
-  if(n === 2){return signature[1]}
+  if(n === 2){return signature[0], signature[1]}
   
   
   } else {
